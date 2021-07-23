@@ -5,7 +5,7 @@ import qrcode
 from pyqrcode import QRCode
 
 #Link for website
-url=input("Please Enter URL : ")
+url=input("Please Enter URL : ").strip()
 
 #Creating an instance of qr code 
 qr=qrcode.QRCode(version=1,box_size=10,border=5)
